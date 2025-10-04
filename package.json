@@ -1,0 +1,31 @@
+{
+  "name": "xinstdl",
+  "version": "1.0.0",
+  "description": "A fast and elegant telegram bot to download X and Instagram media",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sra0ne/xinstdl.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ytdl"
+  ],
+  "author": "sra0ne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sra0ne/xinstdl/issues"
+  },
+  "homepage": "https://github.com/sra0ne/xinstdl#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "telegraf": "^4.16.3",
+    "ytdlp-nodejs": "^2.3.4"
+  }
+}
